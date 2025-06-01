@@ -1,24 +1,17 @@
-package com.example.ecomerce_store_ass
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.ecomerce_store_ass.databinding.ActivitySignInPasswordBinding
+import com.example.e_c.databinding.ActivitySignInEmailBinding
 
 class SignInPasswordActivity : AppCompatActivity() {
-    private lateinit var binding: ActivitySignInPasswordBinding
+    private lateinit var binding: ActivitySignInEmailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitySignInPasswordBinding.inflate(layoutInflater)
+        binding = ActivitySignInEmailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.continueBtn.setOnClickListener {
-            // Navigate to main/home screen or dashboard
-        }
 
-        binding.forgotPasswordLink.setOnClickListener {
-            startActivity(Intent(this, ForgotPasswordActivity::class.java))
-        }
     }
 }

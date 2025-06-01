@@ -1,7 +1,6 @@
-package com.example.ecomerce_store_ass
-
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.e_c.R
 
 class PasswordLoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
