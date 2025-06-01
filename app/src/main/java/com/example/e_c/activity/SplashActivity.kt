@@ -1,9 +1,9 @@
-package com.example.ecomerce_store_ass
 
+import SignInEmailActivity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.ecomerce_store_ass.databinding.ActivitySplashBinding
+import com.example.e_c.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySplashBinding
